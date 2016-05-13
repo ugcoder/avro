@@ -15,7 +15,7 @@ Avro phonetic implementation for Linux in IBus.
 	```
 	If you get any dependency error, then also run the following command:
 	```
-	sudo apt-get install -f
+	sudo apt-get install -fy
 	```
 	I hope, all is well now and the installation has been finished.
 
