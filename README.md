@@ -38,4 +38,6 @@ __IBus Engine__ by __Sarim Khan__ <sarim2005@gmail.com>
 
 __Avro Phonetic Dictionary Search Library__ by [__Mehdi Hasan Khan__](https://github.com/omicronlab)
 
+__Ubuntu 16.04 LTS (multi-arch) Binary Package__ by [__Maksudur Rahman Maateen__](https://github.com/ugcoder)
+
 _Licensed under Mozilla Public License 1.1 ("MPL"), an open source/free software license._
