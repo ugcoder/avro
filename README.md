@@ -8,7 +8,7 @@ Avro phonetic implementation for Linux in IBus.
  1. Please run these commands from the terminal. Never forget to be in relevant directory.
 
 	```
-	wget "https://github.com/ugcoder/avro/releases/download/v2.0/avro_2.0-1_all.deb"
+	wget "https://github.com/maateen/avro/releases/download/v2.0/avro_2.0-1_all.deb"
 	```
 	```
 	sudo dpkg -i avro_2.0-1_all.deb
@@ -38,6 +38,6 @@ __IBus Engine__ by __Sarim Khan__ <sarim2005@gmail.com>
 
 __Avro Phonetic Dictionary Search Library__ by [__Mehdi Hasan Khan__](https://github.com/omicronlab)
 
-__Ubuntu 16.04 LTS (multi-arch) Binary Package__ by [__Maksudur Rahman Maateen__](https://github.com/ugcoder)
+__Ubuntu 16.04 LTS (multi-arch) Binary Package__ by [__Maksudur Rahman Maateen__](https://github.com/maateen)
 
 _Licensed under Mozilla Public License 1.1 ("MPL"), an open source/free software license._
