@@ -6,16 +6,15 @@ Avro phonetic implementation for Linux in IBus.
 ### *Ubuntu 16.04 (32/64-bit)*
 
  1. Please run these commands from the terminal. Never forget to be in relevant directory.
-
+	```
+	# Install GDebi, a helper tool for installing .deb files directly.
+	sudo apt-get install gdebi
+	```
 	```
 	wget "https://github.com/maateen/avro/releases/download/v2.0/avro_2.0-1_all.deb"
 	```
 	```
-	sudo dpkg -i avro_2.0-1_all.deb
-	```
-	If you get any dependency error, then also run the following command:
-	```
-	sudo apt-get install -fy
+	sudo gdebi avro_2.0-1_all.deb
 	```
 	I hope, all is well now and the installation has been finished.
 
