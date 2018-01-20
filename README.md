@@ -1,49 +1,32 @@
-# Avro phonetic for Linux in IBus
+# Avro phonetic for Linux
 Avro phonetic implementation for Linux in IBus.
 
-## Installation
+# Installation & Usage
 
-1. Open terminal/package manager and install following packages:
- 
-		git 
-		libibus-1.0-0
-		libibus-1.0-dev
-		ibus
-		automake 
-		autoconf
-		gjs
-		gir1.2-gjsdbus-1.0
-		gir1.2-ibus-1.0
+### *Ubuntu 14.04, 16.04, 16.10, 17.04, 17.10 (32/64-bit)*
 
-    __For Ubuntu 12.04__
-    
-    	sudo apt-get install git ibus libibus-1.0-dev automake autoconf gjs gir1.2-gjsdbus-1.0 gir1.2-ibus-1.0
-	
-	
-    __For other linux distributions__
-    
-    You'll need all related build tools like `automake`, `autoconf` etc...
-    and Latest __IBus__ from _git_ compiled with _gobject-introspection_ support enabled.
+ 1. Please run these commands from the terminal. Never forget to be in relevant directory.
+	```
+	sudo apt install gjs gir1.2-ibus-1.0 libibus-1.0-5 libibus-1.0-dev ibus-gtk ibus-gtk3 ibus-clutter ibus-qt4
+	```
+	```
+	wget "https://github.com/maateen/avro/releases/download/v2.1/avro_2.1-3_all.deb"
+	```
+	```
+	sudo dpkg -i avro_2.1-3_all.deb
+	```
+	I hope, all is well now and the installation has been finished.
 
-2. Now give the following commands step-by-step:
+ 2. Go to `System Settings -> Language Support` from _Unity Launcher_
+ 3. Look at the `Keyboard input method system`  
+ 4. Select __IBus__ and close the window.
+ 5. I believe that you need to restart __IBus__ to make everything work fine. Try the following command:
+	```
+	ibus restart
+	```
 
-		git clone git://github.com/sarim/ibus-avro.git
-		cd ibus-avro
-		aclocal && autoconf && automake --add-missing
-		./configure --prefix=/usr
-		sudo make install
-
-
-## Usage
- 1. Run __IBus__ (`Applications -> System Tools -> IBus`) from _Dash_
- 2. Open __IBus__ `Preferences` from the top panel icon  
- 3. Go to `Input method`
- 4. `Select an input method -> Bengali -> Avro`
- 5. Now Click `Add` button to add __Avro__ to the list
- 6. Now restart __IBus__ from the top panel icon (`Right Click -> Restart`)
- 7. Now Press `Ctrl+Space` to toggle between _English_ and _Avro_ (Bengali)
- 8. Enjoy __Avro Phonetic!__
-
+ 6. Now go to `System Settings -> Keyboard -> Text Entry`.
+ 7. Search and add __Avro Phonetic__ as input source. That's all.
 
 ## Contributors
  
@@ -52,5 +35,7 @@ __IBus Engine__ by __Sarim Khan__ <sarim2005@gmail.com>
 [__Avro JavaScript Phonetic Library__](https://github.com/torifat/jsAvroPhonetic) by [__Rifat Nabi__](https://github.com/torifat)
 
 __Avro Phonetic Dictionary Search Library__ by [__Mehdi Hasan Khan__](https://github.com/omicronlab)
+
+__Ubuntu 16.04 LTS (multi-arch) Binary Package__ by [__Maksudur Rahman Maateen__](https://github.com/maateen)
 
 _Licensed under Mozilla Public License 1.1 ("MPL"), an open source/free software license._
