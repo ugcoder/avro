@@ -7,7 +7,7 @@ Avro phonetic implementation for Linux in IBus.
 
  1. Please run these commands from the terminal. Never forget to be in relevant directory.
 	```
-	sudo apt install gjs gir1.2-ibus-1.0 libibus-1.0-5 libibus-1.0-dev ibus-gtk ibus-gtk3 ibus-clutter ibus-qt4
+	sudo apt install gjs gir1.2-ibus-1.0 libibus-1.0-5 libibus-1.0-dev ibus-gtk ibus-gtk3 ibus-clutter ibus-qt4 ibus
 	```
 	```
 	wget "https://github.com/maateen/avro/releases/download/v2.1/avro_2.1-3_all.deb"
